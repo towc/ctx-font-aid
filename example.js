@@ -1,8 +1,3 @@
-# ctx-font-aid
-canvas font management helper
-
-# usage
-```
 // check whether a font exists
 // ( fontStr )
 ctxfa.fontExists( '20px Verdana' ); // true|false
@@ -26,12 +21,3 @@ ctxfa.whenFontExists( 'lighter 20px Custom', function( fontExists ){
   else
     useFallback();
 });
-```
-
-# installation
-
-download the 'lib.js' as `ctxfa.js`
-```
-<script src="ctxfa.js"></script>
-```
-this has to be before the `<script>` tag of the script you want to use the library in.
